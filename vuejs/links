@@ -1,0 +1,217 @@
+name: "Lucifer S05",
+          poster: "https://i.ibb.co/Tbjb4j0/image-2020-08-21-13-12-45.png",
+          subtitle: "Hot as Hell",
+          link: "PSA/TV Shows/! DC Extended U/Lucifer Season 5",
+        },
+        {
+          name: "JL 50",
+          poster: "https://i.ibb.co/yXw9yhn/jl.jpg",
+          subtitle: "New Original",
+          link: "happy4geeks/JL50",
+        },
+        {
+          name: "Away",
+          poster: "https://i.ibb.co/KbhqvHt/AAAABXR65m-T72k-Oa-VWMOYt5-Gvvqk-L2-Mt-Kx-l6ik-Er-GY-ao-RNUk-Nwg-EVAv-XW6d-PYE6-IWVp639mek-C4-K8-Zx.jpg",
+          subtitle: "Home Can Never Leave You",
+          link: "happy4geeks/Away",
+        },
+        
+              {
+          name: "Project Power",
+          poster: "https://i.ibb.co/b2CtSnV/intro-1597409763.jpg",
+          subtitle: "What would you risk for 5 minutes of pure power?",
+          link: "happy4geeks/Project Power",
+        },
+        {
+          name: "Mirzapur",
+          poster: "https://i.ibb.co/frwSt2R/rsz-71fb9fa71c1f9d437b0189ca3a2f2ea7383136d4269e9e7db127c15e8548e990-v-sx2160-1.jpg",
+          subtitle: "Recap Of Season 1",
+          link: "happy4geeks/SORTED A-Z/M/Mirzapur (2018)",
+        },
+        
+        {
+          name: "Birds Of Prey",
+          poster: "https://i.ibb.co/fM3T44c/4df389b0dfafe8f2c376053a8a1e5e5566061e314f9a9934d29cdf6b0e56eac3-V-SX2160.jpg",
+          subtitle: "Mind over mayhem",
+          link: "PSA/PSA_Movies/! DC Extended Universe/! DCCU/8 - Birds.of.Prey.(2020).[1080p.x265.10bit.FS80.Joy]",
+        },
+        {
+          name: "Breathe: Into the Shadows",
+          poster: "https://i.ibb.co/bR3mzVn/33ddb107e5f8a6fcf9fb6f1cd0f5cf4678af6c0c9d7814f799a7457e7da7454e-V-SX1620.jpg",
+          subtitle: "A father`s love can save a life..or take one",
+          link: "Others/TV Series/Breathe Into the Shadows (2020)",
+        },
+      ],
+    },
+  ];
+  var categories = [
+    {
+      root: 0,
+      link: [
+        
+        {
+          name: "Hollywood Movies",
+          link: "PSA/PSA_Movies",
+          poster: "https://i.ibb.co/WVJVwfH/46036-original.jpg"
+        },
+        {
+          name: "Bollywood Movies",
+          link: "Others/Movies",
+          poster: "https://i.ibb.co/dpHwL05/Iconic-Bollywood-Films-696x393.jpg"
+        },
+        {
+          name: "TV Series",
+          link: "PSA/TV Shows",
+          poster: "https://i.ibb.co/N7XHXhs/english-tv-series.jpg"
+        },
+        {
+          name: "Disney",
+          link: "Others/Disney",
+          poster: "https://i.ibb.co/8rFNG2r/image-2020-07-31-15-42-20.png"
+        },
+        
+        {
+          name: "Anime",
+          link: "ANIME",
+          poster: "https://i.ibb.co/rQmqD2c/cats.jpg"
+        },
+      ],
+    },
+  ];
+  var trendingPosters = [
+    {
+      root: 0,
+      link: [
+        {
+          poster: "https://i.ibb.co/kmMfKpz/1a4b4527e86c482fb5462b09d0d6bf15.jpg",
+          link: "PSA/TV Shows/Dexter",
+        },
+        {
+          poster: "https://i.ibb.co/PC7Dxd9/916467-gunjan-saxena-trailer-out-tomorrow.jpg",
+          link: "happy4geeks/Gunjan Saxena The Kargil Girl (2020)",
+        },
+        {
+          poster: "https://i.ibb.co/nfy9hJh/aa63e1687ea2e3bbb15ea.jpg",
+          link: "happy4geeks/SORTED A-Z/B/Bandish Bandits (2020)",
+        },
+        {
+          poster: "https://i.ibb.co/tP6V4NV/1000087441-h.jpg",
+          link: "Others/MOVIES/Bollywood SORTED A-Z/M/Masaan",
+        },
+        {
+          poster: "https://i.ibb.co/WKvJBdV/AAAABcxy-RLttfqrm4p-Cq-Xh-VPEo-Jv59hn-ZPlkl-Doz-CR5i-Ka-V8-yt-ISsr-Nsg-DEQKwx-E25vb-WO7-Ul-Lt1h-Vk-O.jpg",
+          link: "happy4geeks/Cargo.2020",
+        },
+        {
+          poster: "https://i.ibb.co/GC34F3Z/AAAABUPMJOJq6-ZTEAGbxu-Tr-PE1-H7-Nho-Cra-QRie-UHE0bqx0-Zipbp0-I9-UHYGPOVKtqu-P2-Br-S-j-ZEpobo-URg-Ec.jpg",
+          link: "happy4geeks/Away",
+        },
+        {
+          poster: "https://i.ibb.co/860nFq2/AAAABedwvjs-DV4-TTnryzw-PE-8hua-Kx-Kd-Tcg-V-L7h-XNZc-k-AHgyl-XJKt-Ewz323k-Hwp-XBQ8y-NVkg-Fz-Zn-PSNx.jpg",
+          link: "PSA/TV Shows/Another Life",
+        },
+        {
+          poster: "https://i.ibb.co/7Vx6J8m/AAAABTMDl-BGx-BUIf-Ci3-D5h-Yp-St9-DSrye-HHDT7-Zg7-V996-LT-CR4-Q4-NMEyoi-TMOLQj-LY3q3b-F-p-TR-t1-Kdt.jpg",
+          link: "happy4geeks/The OC",
+        },
+        {
+          poster: "https://i.ibb.co/LNqmYzF/AAAABUu-SWbw-Sa-Ra9vt-Mua0-Cn-Pklz-Xce5-RQ98z-C26j0t1gw6-JKgdi2pqkh-o-E-7-Bp-GWm72-HV-a8hi-ZPx-Ez-RW.jpg",
+          link: "PSA/TV Shows/Cursed (2020)",
+        },
+        {
+          poster: "https://i.ibb.co/rktHQy4/AAAABc0vq-Nw-Ks4yg-SVZAr7d-Hl-Af-Oa3f-Qql-Ed2m-Se-GI-GBR0l-W2i-OJGQog3-Ehhz-Xgs-Bo49-Ig-Hpd-WE9-ZYWZ.jpg",
+          link: "PSA/TV Shows/Altered Carbon",
+        },
+        {
+          poster: "https://i.ibb.co/H2mthbX/4a2abfc76cc11cb7d32ae6509f4f7a07efedb1caecb4e5f6f49ee4aa0fdb1f30-UR1920-1080-RI-SX356-FMjpg.jpg",
+          link: "happy4geeks/SORTED A-Z/F/Four More Shots Please! (2019)",
+        },
+        {
+          poster: "https://i.ibb.co/cJ1skkZ/AAAABTt-LAUQh-SRkpz5-8muac0nr-Xd-AQh4-Tb-Y0-DYTtbvn-NY7lnk1-CRh5-Oe-Yp-FLLT8ua-HP8-Mw-Ra-K6c-TOul-Kk.jpg",
+          link: "PSA/PSA_Movies/The Kissing Booth 2",
+        },
+        {
+          poster: "https://i.ibb.co/M9ThrdQ/2f868b1af2e5dda33e3f0898eca200e0add09c22fca589849bee77fd6b737950-UR1920-1080-RI-SX356-FMjpg.jpg",
+          link: "Amazon Prime/Panchayat (2020)/X265",
+        },
+        {
+          poster: "https://i.ibb.co/LzLwbdY/AAAABTs-fd-KXa-Vk-ZSX6j-Rdz-OHJlr-Prjy-Ixb3-BY-Jtn-TUNSvgk-IQPd7rbcr-S8-IQQi-D-MDUZr-Pe-N725-Yh-Nl-G.jpg",
+          link: "Others/Dark",
+        },
+        {
+          poster: "https://i.ibb.co/MBn7dF7/image-2020-08-27-11-13-33.png",
+          link: "PSA/TV Shows/The Umbrella Academy",
+        },
+        {
+          poster: "https://i.ibb.co/6RPb8HW/image-2020-08-27-11-06-49.png",
+          link: "happy4geeks/SORTED A-Z/A/Avrodh the Siege Within (2020)/Season 1",
+        },
+        {
+          poster: "https://i.ibb.co/svXx5Nm/image-2020-08-27-11-05-49.png",
+          link: "Others/MOVIES/Bollywood SORTED A-Z/S/Shakuntala Devi",
+        },{
+          poster: "https://i.ibb.co/QmhPmrS/image-2020-08-27-11-04-45.png",
+          link: "happy4geeks/Khuda Haafiz",
+        },
+        {
+          poster: "https://i.ibb.co/gV781xm/image-2020-08-27-11-03-50.png",
+          link: "happy4geeks/Raat Akeli Hai (2020)",
+        },
+        {
+          poster: "https://i.ibb.co/MkKM1Tp/AAAABUc-L3-WVONkb-zu-S7-Lq-Om-Py-EHm-EKRKNCRv-H9-Z-mhjm-Zf-QDLv3tyx1-Fh-A-Aej-BEHKH-Ny-Aqli-BR8-E7j.jpg",
+          link: "Others/TV Series/Friends",
+        },
+        {
+          poster: "https://i.ibb.co/dbPKj2m/761391-h.jpg",
+          link: "happy4geeks/Sadak 2",
+        },
+        {
+          poster: "https://i.ibb.co/mGg1rm0/AAAABSUXKZk-GTb6a2-Rv2-Yz-Uq-Bb5-S0-V-Vpr-SQXk-Efm-ZHDpj1f-UTTGh4n-ANgaj-F1l-y7p-WKL2g-Jo-Gu-Ee-A8o6.jpg",
+          link: "Others/Money Heist",
+        },
+        {
+          poster: "https://i.ibb.co/3YBNFsz/AAAABeb-Js3-UWQpsxyz-Tu-Q7-Flu-Jq-7ag-U6q-UZz1-TIOs-EZF-Qnzf-KPQXx9-HOzdnz-Nr-EF1o-WO43xo-C8-JERC4y.jpg",
+          link: "PSA/TV Shows/Sherlock",
+        },
+        {
+          poster: "https://i.ibb.co/DRHjWc6/AAAABR3jt-Oul-HGKm-Ne-RGn0-Clq-Kv-Wa9eip-G7-Ck-T-W63-GPo-Twf7-Ec-Ap53w7sg2k4-Ipe-Qxn8m-Db8-Kpmdq6-EI.jpg",
+          link: "Others/TV Series/Hindi Web Series Collection/Little Things",
+        },
+        {
+          poster: "https://i.ibb.co/YkFpgHZ/strangerthings-0.jpg",
+          link: "PSA/TV Shows/Stranger Things",
+        },
+        {
+          poster: "https://i.ibb.co/7SKmVL2/jl-50-review-1200.jpg",
+          link: "happy4geeks/JL50",
+        },
+        {
+          poster: "https://i.ibb.co/8Pc3gLH/AAAABUr3-Y1-NF-H2vx-X46g-BEwd-Yq-Slv-Ds-Y126karu-PPo-Xn-Hjijxuk1c-XPIb8lr-Lk8-Tf-N3-YXWzni-CLhr-TORO.jpg",
+          link: "Others/TV Series/Breaking Bad",
+        },
+        {
+          poster: "https://i.ibb.co/wNyWNSn/91-Tm-R1v-q-RL-RI-2f56fbdc-a4e4-4fa8-b022-b45e36874fc7.jpg",
+          link: "Others/The Office US",
+        },
+      ],
+    },
+  ];
+  var quickLinks = [
+    {
+      root: 0,
+      link: [
+        {
+          displayname: "Courses",
+          link: "happy4geeks/Courses ALL",
+          faIcon: "fas fa-heart",
+        },
+        {
+          displayname: "IMDb Top 250",
+          link: "Others/MOVIES/IMDB Top 250",
+          faIcon: "fas fa-video",
+        },
+        {
+          displayname: "Anime",
+          link: "ANIME",
+          faIcon: "fas fa-glasses",
+        },

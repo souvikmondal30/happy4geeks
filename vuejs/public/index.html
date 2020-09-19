@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+  <!-- CSS files accelerated by CDN, configured under vue.config.js -->
+  <% for (var i in htmlWebpackPlugin.options.cdn&&htmlWebpackPlugin.options.cdn.css) { %>
+  <link href="<%= htmlWebpackPlugin.options.cdn.css[i] %>" rel="preload" as="style">
+  <link href="<%= htmlWebpackPlugin.options.cdn.css[i] %>" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <% } %>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <script>
+    var authConfig = {
+      version: '1.1.0',
+      backendSite: "http://localhost:3000",
+      hybridpass: "",
+      roots: [
+        {
+          id: "",
+          name: "Happy 4 Geeks",
+          pass: "",
+        },
+        {
+          id: "",
+          name: "TeamDrive",
+          pass: "",
+        },
+        {
+          id: "",
+          name: "TeamDrive",
+          pass: "",
+        },
+      ],
+    };
+    var themeOptions = {
+      languages: 'en',
+      netflix_home: true, //If True Dont Forget to Fill in all the Required Details
+      prefer_netflix_black: false,
+      loading_image: "https://i.imgur.com/f9Oiq3a.gif", // Max Width and Height - 250px. Do not Enter Images more than 250px wide.
+      home_background_image: "https://i.ibb.co/PDMQTJZ/IN-en-20200824-popsignuptwoweeks-perspective-alpha-website-small.jpg",
+      audio: {
+        default_poster: "https://i.imgur.com/f9Oiq3a.gif",
+      },
+      footer_data: {
+        copyright: true,
+        disclaimer: true,
+        license: true,
+        codeofconduct: true,
+        footer_logo: true,
+        footer_logo_link: "",
+      },
+      render: {
+        head_md: true,
+        head_md_link: `https://cdn.jsdelivr.net/gh/souvikmondal30/happy4geeks@v7.5.2/vuejs/dist/HEAD.md`,
+        readme_md: true,
+        readme_md_link: "https://cdn.jsdelivr.net/gh/souvikmondal30/happy4geeks@v7.5.2/vuejs/dist/README.md",
+        desc: true,
+      }
+    }
+    window.gdconfig = JSON.parse(JSON.stringify({ version: authConfig.version, themeOptions: themeOptions }));
+    window.themeOptions = themeOptions;
+    window.gds = authConfig.roots.map((it) => {
+      return it.name
+    })
+    window.backend = authConfig.backendSite;
+    window.version = authConfig.version;
+    window.gdHybridPass = authConfig.hybridpass;
+    window.current_drive_order = 0;
+  </script>
+  <!-- The JS file accelerated by CDN is configured under vue.config.js -->
+  <% for (var i in htmlWebpackPlugin.options.cdn&&htmlWebpackPlugin.options.cdn.js) { %>
+  <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
+  <% } %>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="/app.js"></script>
+</body>
+
+</html>
